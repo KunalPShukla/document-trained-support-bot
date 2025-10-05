@@ -1,4 +1,4 @@
-# SupportBotAgentLC
+# SupportBotAgent
 
 SupportBotAgent is a chatbot that reads and processes documents (PDF or text), uses semantic search and a language model to answer user queries contextually from the document, and iteratively improves its responses based on user feedback.
 
