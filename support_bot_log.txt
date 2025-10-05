@@ -1,0 +1,16 @@
+2025-10-05 14:55:49,951 [INFO] Initializing agent for document: ML Assignment.pdf
+2025-10-05 14:55:49,951 [INFO] Loading document: ML Assignment.pdf (type: .pdf)
+2025-10-05 14:55:51,198 [INFO] Loaded 5 top-level chunks from document
+2025-10-05 14:55:51,201 [INFO] Custom chunking produced 157 chunks
+2025-10-05 14:55:51,437 [INFO] Use pytorch device_name: cpu
+2025-10-05 14:55:51,437 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-10-05 14:56:05,279 [INFO] Loading faiss with AVX2 support.
+2025-10-05 14:56:05,302 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-05 14:56:05,320 [INFO] Loading HuggingFace pipeline LLM: google/flan-t5-base
+2025-10-05 14:56:07,050 [INFO] --- New Query --- Which is the time limit for submitting the assignment?
+2025-10-05 14:56:07,127 [WARNING] No relevant docs were retrieved using the relevance score threshold 0.35
+2025-10-05 14:56:07,127 [INFO] Retrieved 0 relevant context chunks for query: 'Which is the time limit for submitting the assignment?'
+2025-10-05 14:56:09,146 [INFO] Answer generated for query 'Which is the time limit for submitting the assignment?': I don’t have enough information to answer that.
+2025-10-05 14:56:09,147 [WARNING] Query not covered by context: 'Which is the time limit for submitting the assignment?'
+2025-10-05 14:56:31,699 [INFO] Adjusting response for feedback: 'not helpful'
+2025-10-05 15:06:46,233 [INFO] Feedback: good. Stopping further iterations.
