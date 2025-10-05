@@ -1,1 +1,24 @@
+2025-10-05 16:26:53,436 [INFO] Initializing agent for document: FAQ.txt
+2025-10-05 16:26:53,436 [INFO] Loading document: FAQ.txt (type: .txt)
+2025-10-05 16:26:53,437 [INFO] Loaded 1 top-level chunks from document
+2025-10-05 16:26:53,437 [INFO] Custom chunking produced 4 chunks
+2025-10-05 16:26:53,740 [INFO] Use pytorch device_name: cpu
+2025-10-05 16:26:53,740 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-10-05 16:26:59,928 [INFO] Loading faiss with AVX2 support.
+2025-10-05 16:26:59,962 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-05 16:26:59,972 [INFO] Loading HuggingFace pipeline LLM: google/flan-t5-base
+2025-10-05 16:27:01,931 [INFO] --- New Query --- How do I reset my password?
+2025-10-05 16:27:02,027 [INFO] Retrieved 1 relevant context chunks for query: 'How do I reset my password?'
+2025-10-05 16:27:11,089 [INFO] Answer generated for query 'How do I reset my password?': Go to the login page and click "Forgot Password." Enter your email and follow the link sent to you.
+2025-10-05 16:27:15,010 [INFO] Feedback: good. Stopping further iterations.
+2025-10-05 16:27:15,010 [INFO] --- New Query --- What�s the refund policy?
+2025-10-05 16:27:15,168 [INFO] Retrieved 1 relevant context chunks for query: 'What�s the refund policy?'
+2025-10-05 16:27:24,987 [INFO] Answer generated for query 'What�s the refund policy?': We offer refunds within 30 days of purchase for eligible items. Digital products are refundable only if unused or unaccessed. To start a refund, contact support at support@example.com with your order number. Refunds are processed within 5�7 business days.
+2025-10-05 16:27:43,070 [INFO] Feedback: good. Stopping further iterations.
+2025-10-05 16:27:43,071 [INFO] --- New Query --- How do I fly to the moon?
+2025-10-05 16:27:43,214 [WARNING] No relevant docs were retrieved using the relevance score threshold 0.35
+2025-10-05 16:27:43,215 [INFO] Retrieved 0 relevant context chunks for query: 'How do I fly to the moon?'
+2025-10-05 16:27:45,408 [INFO] Answer generated for query 'How do I fly to the moon?': I don�t have enough information to answer that.
+2025-10-05 16:27:45,408 [WARNING] Query not covered by context: 'How do I fly to the moon?'
+2025-10-05 16:27:52,527 [INFO] Feedback: good. Stopping further iterations.
 
