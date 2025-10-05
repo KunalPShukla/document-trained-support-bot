@@ -32,7 +32,6 @@ def custom_paragraph_chunking(documents, chunk_size=600, chunk_overlap=150):
     chunked_docs = []
 
     for doc in documents:
-        # Extract paragraphs (double newlines define paragraph boundaries)
         paras = re.split(r'\n\s*\n|(?<=\n)(?=\d+\.\s)|(?<=\n)(?=[A-Za-z].{0,50}:)', doc.page_content)
         paragraphs = [p.strip() for p in paras if p.strip()]
         # paragraphs = [p.strip() for p in doc.page_content.split("\n\n") if p.strip()]
@@ -173,9 +172,11 @@ Answer clearly, with specifics and step-by-step instructions when possible."""
             print("")
 
 if __name__ == "__main__":
-    DOCUMENT_PATH = "ML Assignment.pdf"  # or "FAQ.pdf"
+    DOCUMENT_PATH = "FAQ.txt"  # or "FAQ.pdf"
     agent = SupportBotAgentLC(DOCUMENT_PATH)
     sample_queries = [
-        "Which is the time limit for submitting the assignment?"
+        "How do I reset my password?",
+        "What’s the refund policy?",
+        "How do I fly to the moon?"
     ]
     agent.run(sample_queries)
